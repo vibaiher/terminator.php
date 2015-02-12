@@ -1,0 +1,5 @@
+suites:
+    default:
+        src_path: src
+
+formatter.name: pretty

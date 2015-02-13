@@ -1,9 +1,11 @@
 <?php
 
-namespace Acme;
-use Acme\Legs;
+namespace Acme\Routine;
 
-class Routine
+use Acme\Target;
+use Acme\Component\Legs;
+
+class TranslateToTarget
 {
     private $legs;
 

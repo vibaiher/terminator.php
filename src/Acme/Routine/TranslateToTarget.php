@@ -5,7 +5,7 @@ namespace Acme\Routine;
 use Acme\Target;
 use Acme\Component\Legs;
 
-class TranslateToTarget
+class TranslateToTarget implements Routine
 {
     private $legs;
 
